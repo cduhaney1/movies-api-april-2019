@@ -22,3 +22,10 @@ function update(req, res) {
 function deleteOne(req, res) {
   res.json({ message: "You deleted" });
 }
+// This is exporting files
+module.exports = {
+  create,
+  retrieveAll,
+  update,
+  deleteOne
+};
